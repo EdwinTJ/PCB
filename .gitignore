@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+*.csv
+*.GTO
+*.GKO
+/PCB/Panel 436-5002_R.GKO
+/PCB/Panel 436-5002_R.GTO
+/PCB/Panel 436-5002_R.csv
+/PCB/Panel 436-5002_R.csv
+/PCB/Panel 436-5002_R.GKO
+/PCB/Panel 436-5002_R.GTO
