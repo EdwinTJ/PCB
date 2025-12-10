@@ -22,14 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CreateSearchablePDF.py" />
     <Compile Include="GerberParse.py" />
+    <Compile Include="GerberSilkscreenParser.py" />
     <Compile Include="PCB.py" />
+    <Compile Include="RenderGerber.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="install.txt" />
     <Content Include="Panel 436-5002_R.csv" />
     <Content Include="Panel 436-5002_R.GKO" />
     <Content Include="Panel 436-5002_R.GTO" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
